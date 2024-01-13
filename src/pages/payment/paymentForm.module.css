@@ -1,0 +1,106 @@
+label{
+    display: block;
+     color:#718096;
+     margin-bottom:20px;
+      font-size:16px;
+      font-weight:500;
+    }
+
+    .inputLabels{
+display: block;
+color:#4F4F4F;
+font-size:16px;
+font-family: Neue Montreal;
+margin-bottom: 8px;
+
+    }
+
+    #address{
+        display: block;
+
+        margin-bottom: 8px;  
+      }
+
+.formControl{
+margin-right:40px;
+ width:100%;
+ height: 48px;
+ border-radius: 8px;
+  padding:21px;
+  border:1px solid #ccc;
+
+    }
+    
+    input[type=text],
+    input[type=email],
+    input[type=date]{
+         width: 100%;
+          padding: 14px;
+          border-radius: 5px;
+          border:1px solid #ccc;
+           background: rgba(234, 239, 247, 0.39);
+    
+    }
+    
+
+    .infoForm{
+        width: 50%;
+        text-align:left;
+    }
+    
+    
+    .invalidFeedback{
+        color: red;
+    }
+    .proceedBtn{
+    color: #fff;
+    font-size: 22px !important;
+    width: 100%;
+    height: 50px;
+    border-radius: 12px;
+    border:none !important;
+    background: var(--Linear, linear-gradient(129deg, #004B93 10.23%, #328D98 68.37%));
+    box-shadow: 0px 3.6px 4.713px 0px rgba(23, 16, 21, 0.05), 0px 18px 29px 0px rgba(23, 16, 21, 0.03);
+    cursor: pointer;
+    margin-bottom: 5px;
+    }
+    
+    
+    
+
+    @media only screen and (max-width: 696px){
+
+    
+
+    /* form responsive */
+
+    .infoForm{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding-right: 370px;
+margin: 0 auto;
+    
+}
+
+
+
+/* form fields */
+
+/* #firstName{
+        
+    background-color: red !important;
+}
+#lastName{
+        
+    background-color: red !important;
+} */
+
+.proceedBtn{
+    margin: 0 auto;
+    width: 200px;
+    font-size: 17px !important;
+
+}
+
+    }

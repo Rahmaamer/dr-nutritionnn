@@ -1,0 +1,139 @@
+.main {
+  padding: 100px;
+}
+.main .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+.main .container .left {
+}
+
+.main .container .left .title {
+}
+.main .container .left .title h3 {
+  font-family: Montserrat;
+  font-size: 54px;
+  font-weight: 700;
+}
+.main .container .left .title h3 span {
+  background: linear-gradient(129deg, #004b93 10.23%, #328d98 68.37%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.main .container .left .title p {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0.14px;
+  max-width: 500px;
+}
+.main .container .left form {
+  margin-top: 40px;
+}
+
+.main .container .left form .space{
+  border: none;
+  outline: none;
+  border: 1px solid var(--Gray-5, #e0e0e0);
+  width: 545px;
+  height: 50px;
+  padding: 12px 20px;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.btn{
+  display: flex;
+  padding: 12px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background: linear-gradient(129deg, #004b93 10.23%, #328d98 68.37%);
+  color: white;
+  cursor: pointer;
+  width: 545px;
+  height: 50px;
+  margin-top: 20px;
+  border: 1px solid #fff;
+}
+.main .container .right .frame {
+  width: 545px;
+  height: 700px;
+}
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+ 
+  /* Styles for medium screens */
+  .main .container {
+    flex-direction: column;
+  }
+  .main .container {
+    margin-left: 60px;
+    margin-top: -50px;
+  }
+  .main .container .right .frame {
+    margin-left: -60px;
+    height: 500px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  /* Styles for small screens */
+  .main {
+    padding: 20px;
+  }
+  .main .container {
+    flex-direction: column;
+
+  }
+  
+  .main .container .left {
+   
+  }
+  .main .container .left .title {
+  }
+  .main .container .left .title h3 {
+    
+    font-size: 60px;
+    font-weight: 500;
+    margin-left: 10px;
+    
+  }
+  .main .container .left .title p {
+   margin-left: 20px;
+    
+    width: 80%;
+  }
+  .main .container .right .frame {
+    
+    height: 400px;
+    width: 300px;
+  }
+  .main .container .left form {
+    margin-top: 15px;
+  }
+  .btn{
+    display: flex;
+    padding: 12px 24px;
+   margin-left: 60px;
+   
+    
+    
+    cursor: pointer;
+    width: 200px;
+    height: 50px;
+   
+  }
+  .main .container .left form .space{
+   
+    
+    
+    width: 200px;
+    height: 50px;
+  
+    
+  }
+  
+}

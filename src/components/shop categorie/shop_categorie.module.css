@@ -1,0 +1,15 @@
+
+.slide {
+  width: 200px;
+  height: 220px;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.slide img {
+  width: 200px;
+  height: 180px;
+
+}

@@ -1,0 +1,268 @@
+.main {
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+}
+.main .main_bg {
+  position: relative;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.main .main_bg img {
+  width: 100%;
+  height: 99%;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+.main .sign_in {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.main .sign_in .container {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  overflow: scroll;
+}
+/*  sign up*/
+.main .sign_in .container .sign_up_steps {
+  display: flex;
+  justify-content: flex-end;
+  margin: 20px 0;
+}
+
+.main .sign_in .container .sign_up_steps .link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+
+  border-radius: 100%;
+  background: rgba(149, 200, 74, 0.4);
+  opacity: 0.7;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 700;
+  margin: 10px;
+  text-decoration: none;
+}
+.main .sign_in .container .sign_up_steps :nth-child(1) {
+  background: #95c84a;
+  opacity: 1;
+}
+
+.main .sign_in .container::-webkit-scrollbar {
+  width: 0rem;
+}
+/*  sign up*/
+
+.main .sign_in .container .container_title {
+  margin-top: 20px;
+  display: flex;
+  gap: 50px;
+}
+
+.main .sign_in .container h1 {
+  margin: 10px 0 45px 1px;
+
+  font-size: 55px;
+  font-weight: 500;
+}
+.main .sign_in .container .different_ways {
+  display: flex;
+  align-items: center;
+
+  gap: 35px;
+}
+.main .sign_in .container .different_ways span {
+  cursor: pointer;
+}
+.main .sign_in .container .different_ways .google {
+  width: fit-content;
+  height: 55px;
+  color: #4285f4;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: normal;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.main .sign_in .container form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+/*  sign up site*/
+.main .sign_in .container form .sign_up_inputs {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.main .sign_in .container form .sign_up_inputs div {
+  display: flex;
+  flex-direction: column;
+}
+.main .sign_in .container form .sign_up_inputs input {
+  outline: none;
+  border: none;
+  border-radius: 9px;
+  border: 1px solid #adadad;
+  background: #fff;
+  padding: 16px 15px;
+}
+/*  sign up site*/
+.main .sign_in .container form .input {
+  border: none;
+  outline: none;
+  transition: 0.5s;
+  width: 100%;
+  height: 45px;
+  border-radius: 3px;
+  border: 1px solid #adadad;
+  background: #fff;
+  padding-left: 20px;
+  font-size: 17px;
+}
+.main .sign_in .container form .input::placeholder {
+  color: #808080;
+  font-size: 14px;
+  font-weight: 300;
+}
+.main .sign_in .container form .input:focus {
+  border: 1px solid #4285f4;
+}
+.main .sign_in .container form label {
+  color: #000;
+  font-size: 16px;
+  font-weight: 400;
+  margin: 35px auto 10px 1px;
+}
+.main .sign_in .container form .forgot_btn {
+  color: #4285f4;
+  font-size: 13px;
+  font-weight: 400;
+  margin: 12px 1px 37px auto;
+  text-decoration: none;
+}
+.main .sign_in .container form .sign_btn {
+  border: none;
+  outline: none;
+  width: 236px;
+  height: 54px;
+  margin-left: auto;
+  border-radius: 10px;
+  background: linear-gradient(129deg, #004b93 10.23%, #328d98 68.37%);
+  box-shadow: 0px 4px 19px 0px rgba(119, 147, 65, 0.3);
+  text-align: center;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+}
+/* start media */
+@media (max-width: 1027px) {
+  .main .sign_in .container {
+  }
+  .main .sign_in .container .sign_up_steps .link {
+    width: 25px;
+    height: 25px;
+  }
+  .main .sign_in .container h1 {
+    font-size: 40px;
+    font-weight: 400;
+    margin: 10px 0 30px 1px;
+  }
+  .main .main_bg {
+  }
+}
+@media (max-width: 980px) {
+  .main {
+    position: relative;
+  }
+  .main .main_bg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .main .sign_in {
+    width: 100%;
+    z-index: 3;
+    background-color: rgba(0, 0, 0, 80%);
+    color: white;
+  }
+  .main .sign_in .container {
+    background-color: rgba(255, 255, 255, 30%);
+    margin: 50px 0;
+    padding: 30px;
+    border-radius: 10px;
+    backdrop-filter: blur(5px);
+  }
+  .main .sign_in .container .sign_up_steps {
+    margin: 10px 0;
+  }
+  .main .sign_in .container form label {
+    color: white;
+  }
+  .main .sign_in .container .different_ways {
+    width: fit-content;
+    border-radius: 10px;
+    padding: 0 20px;
+    background-color: rgba(255, 255, 255, 10%);
+  }
+  .main .sign_in .container .different_ways span {
+    background-color: #adadad;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    padding: 5px;
+  }
+}
+@media (max-width: 550px) {
+  .main .sign_in .container {
+    width: 80%;
+    padding: 5px;
+  }
+
+  .main .sign_in .container h1 {
+    font-size: 20px;
+  }
+  .main .sign_in .container .container_title {
+    justify-content: space-between;
+    padding: 0;
+  }
+  .main .sign_in .container .container_title h2 {
+    font-size: 15px;
+  }
+  .main .sign_in .container .container_title div p {
+    font-size: 14px;
+  }
+  .main .sign_in .container .different_ways {
+    gap: 10px;
+  }
+  .main .sign_in .container .different_ways .google {
+    width: fit-content;
+    font-size: 15px;
+    padding: 0 5px;
+    justify-content: center;
+    gap: 10px;
+  }
+  .main .sign_in .container form .sign_up_inputs {
+    flex-direction: column;
+  }
+}

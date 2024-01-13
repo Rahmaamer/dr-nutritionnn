@@ -1,0 +1,76 @@
+.dashEdit{
+ margin: 0 auto;
+  max-width: 960px;
+   padding: 10px;    
+}
+.dashContent{
+padding-bottom: 5px;
+} 
+
+.dashTitle{
+font-size: 38px;
+ text-align: start;
+}
+
+hr{
+    margin-top: 7px;
+    width: auto !important;
+     height: 1.75px !important;
+     color: #D9D9D9 !important;
+
+}
+
+.accInfo{
+text-align: start;
+ margin-top: 20px;
+ font-family: Montserrat;
+ font-size: 30px;
+}
+
+.btnsRender{
+text-align: end;
+ padding-bottom: 20px;
+}
+
+#nameInput,#emailInput{
+
+        font-size: 18px;
+        padding: 8px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        width: 100%;
+        background-color: #fff;
+}
+
+.namePara,
+.emailPara{
+font-size: 20px;
+ font-weight: normal;
+display: inline;
+}
+.inputLabels{
+
+color: #5B5B5B;
+ font-size: 25px;
+}
+
+
+.dashBtn{
+    border:none !important;
+        font-size: 16px !important;
+        width: 146px !important;
+        height: 42px !important;
+        border-radius: 3px !important;
+        color: #fff;
+ background: var(--1594-f-8, #1594F8) !important;
+cursor: pointer;
+}
+
+
+@media only screen and (max-width: 696px) {
+
+    .dashBtn{
+        margin-top: 10px;
+        float: left;
+    }
+}

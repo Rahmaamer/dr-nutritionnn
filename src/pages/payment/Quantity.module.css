@@ -1,0 +1,15 @@
+.quantityCounter{
+
+    display: flex;
+     margin-left: 50px;
+}
+
+.quantityBtns{
+    background: #fff ;
+    border: 1px solid var(--1594-f-8, #1594F8);
+    color: #247CC6 ;
+    width: 24px;
+height: 24px;
+margin: 0 5px;
+cursor: pointer;
+}

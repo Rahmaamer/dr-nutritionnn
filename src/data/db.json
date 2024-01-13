@@ -1,0 +1,63 @@
+{
+  "home_main_slider": [
+    {
+      "img": "../data/imgs/test.png"
+    },
+    {
+      "img": "../data/imgs/test.png"
+    },
+    {
+      "img": "../data/imgs/test.png"
+    },
+    {
+      "img": "../data/imgs/test.png"
+    }
+  ],
+
+  "products_data": [
+    {
+      "id": 1,
+      "img": "../data/imgs/test.png",
+      "old_price": 120,
+      "price": 100,
+      "title":"Dymalize iso 100",
+      "star":4.5,
+      "heart":109,
+      "review":"65 reviews",
+      "quantity":0
+    },
+    {
+      "id": 2,
+      "img": "../data/imgs/test.png",
+      "old_price": 120,
+      "price": 100,
+      "title":"Dymalize iso 100",
+      "star":4.5,
+      "heart":109,
+      "review":"65 reviews",
+      "quantity":0
+    },
+    {
+      "id": 3,
+      "img": "../data/imgs/test.png",
+      "old_price": 120,
+      "price": 100,
+      "title":"Dymalize iso 100",
+      "star":4.5,
+      "heart":109,
+      "review":"65 reviews",
+      "quantity":0
+    },
+    {
+      "id": 4,
+      "img": "../data/imgs/test.png",
+      "old_price": 120,
+      "price": 100,
+      "title":"Dymalize iso 100",
+      "star":4.5,
+      "heart":109,
+      "review":"65 reviews",
+      "quantity":0
+    }
+  ]
+}

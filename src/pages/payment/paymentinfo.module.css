@@ -1,0 +1,282 @@
+.paymentSection{
+    background-color: #fff;
+        padding-top: 4rem;
+}
+
+.paymentDiv{
+ width: 100%;
+  max-width: 1200px;
+   margin: 0 auto;
+    display: flex;
+}
+
+
+
+
+/* payment method css */
+
+.payMethods{
+    width: 50% !important;
+}
+
+.paymentMethodTitle{
+ text-align: left; 
+margin-bottom: 31px;
+}
+
+.paymentRadio{
+    display: flex;
+         align-items: center;
+       }
+.paymentDetailsPara{
+
+text-align: left;
+         margin-top: 2rem;
+          margin-bottom: 45px;
+}
+.expirationLabel{
+    display:block;
+margin-bottom: 15px;
+  color:#718096;
+   font-size:16px;
+        font-weight:500; 
+}
+.cvcText{
+ display:block;
+  color:#718096;
+  margin-bottom:15px;
+   font-size:16px;
+font-weight:500;
+}
+.paymentAgreement{
+    color: #898989;
+font-family: Spartan;
+font-size: 14px;
+text-align: left; 
+    margin-top: 30px;
+    margin-bottom:75.5px;
+}
+
+
+.paymentBtns{
+    display: flex;
+     margin-top: 16px;
+        margin-bottom:30px;
+}
+
+.cancelBtn,
+.completeBtns{
+    width: 200px;
+    height: 60px;
+    border-radius: 12px;
+    color:#4A5568 !important;
+    background: #fff !important;
+    border: 1px solid var(--1594-f-8, #1594F8);
+}
+.completeBtns{
+    background: #1594F8 !important;
+    color: #F7FAFC !important;
+border: none !important;
+}
+
+
+/* orders css */
+
+.orders{
+ width: 50%;
+  margin-left: 20px;
+}
+
+.orderTitles{
+    color: 4F4F4F;
+        font-family: Neue Montreal;
+        font-size: 24px;
+        text-align: left;
+         margin-top: 20px;
+         margin-left: 20px;
+
+}
+
+.orderCard{
+margin: 20px 40px 50px 20px;
+ box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  border-radius: 15px; padding: 15px ;
+   border: 0.5px solid #D5D5D5;
+   background: rgba(246, 246, 246, 0.05);
+}
+
+
+.orderTitle{
+    color: #4F4F4F;
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+}
+
+.orderParagraph{
+    width: 253px;
+    color: var(--Gray-500, #667085);
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500 !important;
+    line-height: 22.2px !important;
+}
+
+.orderImgs{
+    max-width: 100px !important;
+    margin-bottom: 20px !important;
+    margin:0 auto;
+}
+
+.sizeSelection{
+    width: 135px;
+    padding: 0.5rem;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom:23px;
+    margin-right:15rem;
+}
+
+
+hr{
+
+    width: 90%;
+    height: 1.75px;
+    border: none;
+    color: #EFE7EC;
+    background-color: #EFE7EC;
+    margin-left: 20px;
+    margin-bottom: 5px;
+  
+}
+
+
+.totalDiv,.subtotalData{
+
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+
+@media only screen and (max-width: 696px) {
+    .orderDetails{
+        width: 300px;
+    
+    }
+
+   
+
+    .paymentDiv{
+ display: flex;
+  flex-direction: column;
+    }
+
+    /* form responsive */
+
+    .infoForm{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding-right: 370px;
+margin: 0 auto;
+    
+}
+
+/* form fields */
+
+/* #firstName{
+        
+    background-color: red !important;
+}
+#lastName{
+        
+    background-color: red !important;
+} */
+
+.proceedBtn{
+    margin: 0 auto;
+    width: 200px;
+    font-size: 17px !important;
+
+}
+
+
+/* order card */
+
+.orders{
+    margin: 0 auto !important;
+    width: 100% !important;
+}
+
+.orderParagraph{
+line-height: 17px !important;
+
+}
+.orderImgs{
+margin-top: 15px !important;
+
+}
+.sizeDropDown{
+    margin-top: 7px;
+}
+
+.sizeSelection{
+    margin-right: 0 !important;
+}
+
+
+/* payment methods form */
+
+.payMethods{
+    display: flex !important;
+    flex-direction: column !important;
+    flex-wrap: wrap !important;
+margin: 0 auto !important;
+}
+.paymentDetailsPara{
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 25px;
+}
+
+.paymentMethodTitle{
+    text-align: center; 
+           margin-bottom: 25px !important;
+   }
+   .paymentRadio{
+justify-content: center;
+   }
+
+.expirationLabel{
+    font-size: smaller !important;
+    margin-bottom: 2px;
+}
+
+input[type=text] {
+    width: 100% !important;
+    padding: 12px 20px !important;
+
+  }
+
+.paymentAgreement{
+    margin-top: 25px;
+    margin-bottom:20px;
+}
+
+.paymentBtns{
+    margin-top: 0;
+width: 100%;
+}
+.cancelBtn,.completeBtns{
+    font-size: 17px;
+}
+
+
+
+}

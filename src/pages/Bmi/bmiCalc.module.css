@@ -1,0 +1,84 @@
+.bmiContent{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bmiTitle{
+  
+font-size: 40px;
+}
+
+.formInput,.formSelect{
+  width: 100%;
+  height: 48px;
+  border-radius: 8px;
+  padding: 21px;
+  border: 1px solid #ccc;
+}
+
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  max-width: 400px;
+  width: 100%;
+  position: relative;
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  font-size: 20px;
+  color: #555;
+}
+
+
+.formSelect{
+  padding: 0;
+}
+.submitBtn{
+width: 15rem;
+height: 59px;
+flex-shrink: 0;
+border-radius: 47px !important;
+background: var(--Linear, linear-gradient(129deg, #004B93 10.23%, #328D98 68.37%));
+box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.25);
+color: #FFF;
+text-align: center;
+font-family: Montserrat;
+font-size: 20px;
+margin-bottom: 2rem;
+margin-top: 2rem;
+border: none !important;
+cursor: pointer;
+}
+
+.inputField {
+    outline: none !important;
+    box-shadow: none !important;
+    border: none !important;
+  }
+  
+  .formLabel{
+    color: #000;
+    font-family: Poppins;
+    font-size: 16px;
+  }
+ 
